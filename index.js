@@ -70,7 +70,7 @@ function removeFromCart(item) {
 function placeOrder(cardNumber) {
   // write your code here
   if (cardNumber) {
-    
+    var n = total()
     for (let i = 0; i < cart.length+2; i++) { 
       cart.pop()   }
     

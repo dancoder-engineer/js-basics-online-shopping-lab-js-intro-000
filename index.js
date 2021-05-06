@@ -55,11 +55,15 @@ function removeFromCart(item) {
     
     
    if (whichItem===0) {cart.shift()
+   return 0
    }
    
-   else if (whichItem===cart.length-1) {cart.pop()   }
+   else if (whichItem===cart.length-1) {cart.pop()  
+   return 0}
    
-   else {cart.splice(whichItem,1)} 
+   else {cart.splice(whichItem,1)
+     return 0
+   } 
     
 }
 

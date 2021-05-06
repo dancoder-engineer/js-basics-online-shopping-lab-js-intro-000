@@ -71,7 +71,7 @@ function placeOrder(cardNumber) {
   // write your code here
   if (cardNumber) {
     
-    for (let i = 0; i < cart.length; i++) { 
+    for (let i = 0; i < cart.length+1; i++) { 
       cart.pop()   }
     
     return `Your total cost is ${total()}, which will be charged to the card ${cardNumber}.`

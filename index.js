@@ -72,7 +72,7 @@ function placeOrder(cardNumber) {
   if (cardNumber) {
     
     for (let i = 0; i < cart.length; i++) { 
-      removeFromCart(cart[i].itemName) }
+      removeFromCart(cart[0].itemName) }
     
     return `Your total cost is ${total()}, which will be charged to the card ${cardNumber}.`
   }
